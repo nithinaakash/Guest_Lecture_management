@@ -1,0 +1,241 @@
+<!DOCTYPE html> 
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Attendance</title>
+  <style>
+    .container{
+height: 100%;
+margin-top: 100px;
+align-content: center;
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 2500px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+.card{
+height: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 2500px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+body {
+    background: linear-gradient(70deg, #cab812, #f7f7f7);
+    color: rgb(167, 20, 32);
+    min-height: 100vh;
+  }
+  
+  code {
+    background: rgb(150, 30, 30);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0 0.3rem;
+  }
+
+
+.navbar-brand {
+    float: left;
+    margin-right: 130px;
+    position: absolute;
+    padding-right: 20px;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  nav a {
+    color: rgb(211, 42, 42);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  nav a:hover {
+    color: #000;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #55d6aa;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  </style>
+</head>
+
+<script type="text/javascript"> 
+  window.history.forward(); 
+  function noBack() { 
+      window.history.forward(); 
+  } 
+</script>
+<body> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <link href = "@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600')">
+        <div class="sd" style="background-color: rgb(206, 26, 26)">
+          <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+            <div class="container1">
+              
+          
+              <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+          
+              <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                  <img src="https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+                  <li class="text-uppercase font-weight-bold"><a href="#" class="nav-link">Guest Lecture Maintenance </a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/back" class="nav-link">Home </a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/studpage" class="nav-link">Student Details</a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/attend" class="nav-link">Attendence portal</a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/archive" class="nav-link">Archives</a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/feedback" class="nav-link">feedback</a></li>
+                  <li class="nav-item"><a href="http://localhost:8080/b" class="nav-link">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+  
+  
+  
+  
+        <center></center> 
+	
+	<p> 
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+          <div class="card">
+              <div class="card-header">
+    <div class="card-body">
+      <div class="d-flex justify-content-center">
+        <h1>Viewing Feedback</h1>
+        </div>
+        <table class="table table-striped table-dark">
+            <tr>
+            <th scope="col">Serial number</th>
+            <th scope="col">Lecturer</th>
+            <th scope="col">subject</th> 
+            <th scope="col">studentname</th>
+            <th scope="col">roll number</th>
+            <th scope="col">feedback</th>
+            <th scope="col">status</th>
+          </tr>
+          
+        <% for(var i=0; i < rows.length; i++) { %>
+          
+           <tr>
+             <td><%= i+1%></td>
+             <td><%= rows[i].lecturer %></td>
+             <td><%= rows[i].subject %></td>
+             <td><%= rows[i].studentname %></td>
+             <td><%= rows[i].rno %></td>
+             <td><%= rows[i].feedback %></td><td>
+             <form name='ko'method="POST" action="http://localhost:8080/feedbackUpdate">
+             <button name='buttonVal' value= <%= i %> style="background-color:black;color:white;"   >
+              <%= rows[i].stat %> action taken
+              </button>
+             </form>
+             </td>
+           </tr>
+        <% } %>
+        </table>
+        </div></div></div></div></div>
+    </p> 
+    
+        
+</body> 
+
+</html> 
