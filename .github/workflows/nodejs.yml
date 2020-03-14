@@ -32,7 +32,7 @@ jobs:
        uses: actions/setup-node@v1
      - name: Installing Dependencies
 #       working-directory: ./home/runner/work/glect/Users/node prog/
-     - run: npm install
+       run: npm install
    
     
      - run: npm install -g jasmine
