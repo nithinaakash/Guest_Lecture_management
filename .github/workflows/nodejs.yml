@@ -26,7 +26,7 @@ jobs:
        uses: sonarsource/sonarcloud-github-action@master
        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN1 }}
   
      - uses: actions/checkout@v2
      - name: Use Node.js ${{ matrix.node-version }}
