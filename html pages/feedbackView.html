@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+	
+<head> 
+	<title> 
+		feedbackView
+	</title> 
+	
+	<style type="text/css"> 
+		body { 
+			font-family:Arial; 
+			color:green; 
+		} 
+	</style> 
+	
+	
+</head> 
+
+<body> 
+	<h1>Viewing Feedback</h2> 
+	
+	<p> 
+        <table>
+            <tr>
+            <th>Lecturer</th>
+            <th>subject</th> 
+            <th>studentname</th>
+            <th>roll number</th>
+            <th>feedback</th>
+            <th>stat</th>
+          </tr>
+        <% for(var i=0; i < rows.length; i++) { %>
+           <tr>
+             <td><%= rows[i].lecturer %></td>
+             <td><%= rows[i].subject %></td>
+             <td><%= rows[i].studentname %></td>
+             <td><%= rows[i].rno %></td>
+             <td><%= rows[i].feedback %></td>
+             <td><%= rows[i].stat %></td>
+           </tr>
+        <% } %>
+        </table>
+    </p> 
+    
+        
+</body> 
+
+</html> 
