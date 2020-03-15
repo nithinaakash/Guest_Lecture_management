@@ -31,9 +31,7 @@ jobs:
      - name: Use Node.js ${{ matrix.node-version }}
        uses: actions/setup-node@v1
      - name: Installing Dependencies
-     - run: npm install
-   
-    
+       run: npm install
      - run: npm install -g jasmine
      - name: SonarCloud Scan
        uses: SonarSource/sonarcloud-github-action@v1.1
