@@ -1,6 +1,0 @@
-projectKey=softwareTesting2
-serverUrl=http://localhost:9000
-serverVersion=8.1.0.31237
-dashboardUrl=http://localhost:9000/dashboard?id=softwareTesting2
-ceTaskId=AXBTO_t1IOL5o_5Ov0m-
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXBTO_t1IOL5o_5Ov0m-
